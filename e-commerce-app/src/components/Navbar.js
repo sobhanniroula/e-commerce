@@ -12,10 +12,10 @@ export default class Navbar extends Component {
                 <NavWrapper className="navbar navbar-expand-md navbar-dark px-sm-5">
                     {/* https://www.iconfinder.com/icons/185072/book_read_streamline_icon */}
                     <Link to="/">
-                        <img src={logo} alt="Logo" className="navbar-brand" style={{filter: 'invert(90%)'}}/>
+                        <img src={logo} alt="Logo" className="navbar-brand" style={{filter: 'invert(90%)', width: '50%', height: '50%'}}/>
                     </Link>
                     <ul className="navbar-nav align-items-center">
-                        <li className="nav-item ml-5">
+                        <li className="nav-item">
                             <Link to="/" className="nav-link" style={{color: '#eee'}}>
                                 Products
                             </Link>

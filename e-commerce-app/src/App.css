@@ -13,3 +13,27 @@ body {
   background: var(--mainWhite) !important;
   color: var(--favouriteGreen) !important;
 }
+
+.text-title {
+  font-family: 'Open Sans';
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.text-green {
+  color: var(--favouriteGreen); 
+}
+.text-green2 {
+  color: #095;
+  margin-left: 5px;
+}
+.text-green3 {
+  color: #09a;
+}
+
+
+@media all and (max-width: 480px) {
+  .text-green3 {
+    font-size: 1.2rem;
+  }
+}
