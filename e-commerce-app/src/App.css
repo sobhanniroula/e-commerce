@@ -31,16 +31,12 @@ body {
   color: #09a;
 }
 
-.text-green4 {
-  color: #09a;
-}
-
 
 @media all and (max-width: 480px) {
   .text-green3 {
     font-size: 1.2rem;
   }
-  .text-green4 {
+  .text-small-xs {
     font-size: 0.9rem;
   }
 }
