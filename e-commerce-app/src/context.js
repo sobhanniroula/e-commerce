@@ -24,6 +24,7 @@ class ProductProvider extends Component {
         console.log('Hello from addToCart');
     }
 
+    
     render() {
         return (
             <ProductContext.Provider value={{
@@ -31,6 +32,7 @@ class ProductProvider extends Component {
                     handleDetail: this.handleDetail,
                     addToCart: this.addToCart
                 }}>
+                   
                 {this.props.children}
             </ProductContext.Provider>
         )
